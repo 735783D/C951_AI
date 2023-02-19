@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I didn't quite understand that. If you type "begin" we can start over.</template>
+  </category>
+</aiml>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>hello</pattern>
+        <template>Hello! I am the student career services chatbot for Computer Science. Please type "begin" to begin at the beginning.</template>
+    </category>
+    <category>
+        <pattern>hi</pattern>
+        <template>Hello! I am the student career services chatbot for Computer Science. Please type "begin" to begin at the beginning.</template>
+    </category>
+        
+    <category>
+        <pattern>help ^ </pattern>
+        <template>For more personalized aassistance, the best option would be to schedule an appointment with an advisor. Below, there are some available time slots to choose from for your convenience.
+            <button>
+                <text>09:00:00 AM CST</text>
+                <postback>appointmentset</postback>
+            </button>
+            <button>
+                <text>11:00:00 AM CST</text>
+                <postback>appointmentset</postback>
+            </button>
+            <button>
+                <text>13:00:00 PM CST</text>
+                <postback>appointmentset</postback>
+            </button>
+            <button>
+                <text>15:00:00 PM CST</text>
+                <postback>appointmentset</postback>
+            </button>
+            <button>
+                <text>17:00:00 PM CST</text>
+                <postback>appointmentset</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>appointmentset</pattern>
+        <template>Thank you! Your student advisor will be notified of your request and will reach out at the desired appointment time.
+        </template>
+    </category>
+    <category>
+        <pattern>support ^</pattern>
+        <template>Please type "help" for more to schedule an appointment.</template>
+    </category>
+    <category>
+        <pattern>schedule ^</pattern>
+        <template>Please type "help" for more to schedule an appointment.</template>
+    </category>
+    <category>
+        <pattern>appointment ^</pattern>
+        <template>Please type "help" for more to schedule an appointment.</template>
+    </category>
+    
+    <category>
+        <pattern>no suggestions</pattern>
+        <template>Hmmm...that is very interesting. I recommend talking to an advisor for assistance narrowing down your search. For choices of appointment times please type the word "help" to schedule!</template>
+    </category>
+    
+</aiml>

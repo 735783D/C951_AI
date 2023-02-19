@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>researcher</pattern>
+        <template>An information researcher has one of the most interesting jobs out there for computer science graduates! Their job is to be on the cutting edge of technology by investigating what is the newest and most interesting ideas that can be utilized. They have a very diverse reach when it comes to the industries that they work in. Industries such as manufacturing, government, and technology design. If you love learning newer things, this may be something for you to investigate.
+            <br></br> <br></br>
+            <link>
+                <text> Click here to learn more about what a UX designer does.</text>
+                <url>https://www.computerscience.org/careers/computer-information-researcher/</url>
+            </link>
+            <button>
+                <text>Click here to explore other career choices.</text>
+                <postback>top 5</postback>
+            </button>
+             <button>
+                <text>Click here for help narrowing it down further.</text>
+                <postback>narrow choice</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>researcher pointer</pattern>
+        <template>We think you should consider becoming a UX designer!
+        <br></br><br></br>
+        An information researcher has one of the most interesting jobs out there for computer science graduates! Their job is to be on the cutting edge of technology by investigating what is the newest and most interesting ideas that can be utilized. They have a very diverse reach when it comes to the industries that they work in. Industries such as manufacturing, government, and technology design. If you love learning newer things, this may be something for you to investigate.
+            <br></br> <br></br>
+            <link>
+                <text> Click here to learn more about UX designers.</text>
+                <url>https://www.computerscience.org/careers/computer-information-researcher/</url>
+            </link>
+            <button>
+                <text>Click here to explore other career choices.</text>
+                <postback>top 5</postback>
+            </button>
+             <button>
+                <text>Click here for help narrowing it down further.</text>
+                <postback>narrow choice</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

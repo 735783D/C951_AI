@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	 <category>
+        <pattern>swdev</pattern>
+        <template>Do you have a love of coding? Architecture? Design? Software developers design and build applications and programs that most people interact with on a daily basis with a computer or mobile device. They build, test, install, and maintain the products that they build from start to infinity...and beyond!
+            <br></br> <br></br>
+            <link>
+                <text> Click to learn more about how a software developer does what they do.</text>
+                <url>https://www.computerscience.org/careers/software-developer/</url>
+            </link>
+            <button>
+                <text>Click here to explore other career choices.</text>
+                <postback>top 5</postback>
+            </button>
+             <button>
+                <text>Click here for help narrowing it down further.</text>
+                <postback>narrow choice</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>swdev pointer</pattern>
+        <template>In my humble, although be it smart bot opinion, I think you should look into becoming a sofware developer.
+        <br></br><br></br>
+        Software developers have a love of coding, architecture, and design. They design and build applications and programs that most people interact with on a daily basis with a computer or mobile device. They build, test, install, and maintain the products that they build from start to infinity...and beyond!
+            <br></br> <br></br>
+            <link>
+                <text> Click here to learn more about what a software developer does on a regular basis.</text>
+                <url>https://www.computerscience.org/careers/software-developer/</url>
+            </link>
+            <button>
+                <text>Click here to explore other career choices.</text>
+                <postback>top 5</postback>
+            </button>
+             <button>
+                <text>Click here for help narrowing it down further.</text>
+                <postback>narrow choice</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

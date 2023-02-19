@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>dbadmin</pattern>
+        <template>The job of a Database Administrator is very interesting! They have the capacity to architect the database itself. This in turn controls how the data is stored, interacted with, and  kept secure allowing for proper usage of said data.
+            <br></br> <br></br>
+            <link>
+                <text> Click here to learn more about how Database administrators do their work.</text>
+                <url>https://www.computerscience.org/careers/database-administrator/</url>
+            </link>
+            <button>
+                <text>Click here to explore other career choices.</text>
+                <postback>top 5</postback>
+            </button>
+             <button>
+                <text>Click here for help narrowing it down further.</text>
+                <postback>narrow choice</postback>
+            </button>
+        </template>
+    </category>
+	<category>
+        <pattern>dbadmin pointer</pattern>
+        <template>A database administrator sounds like it would be a good idea for you to look into!
+        <br></br><br></br>
+        Database Administrators have the capacity to architect the database itself. This in turn controls how the data is stored, interacted with, and  kept secure allowing for proper usage of said data.
+            <br></br> <br></br>
+            <link>
+                <text> Click here to learn more about how Database administrators do their work.</text>
+                <url>https://www.computerscience.org/careers/database-administrator/</url>
+            </link>
+            <button>
+                <text>Click here to explore other career choices.</text>
+                <postback>top 5</postback>
+            </button>
+             <button>
+                <text>Click here for help narrowing it down further.</text>
+                <postback>narrow choice</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

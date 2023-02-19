@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	 <category>
+        <pattern>webdev</pattern>
+        <template>The job of a web developer is to ensure that all content that they are in charge of is accessible to everyone on the internet. They do this by making sure the layout is easily understood, graphics and pictures are integrated properly, and that every aspect of the front-facing site is user-friendly. They also make sure that the sites they're in charge of are accessible across different browsers whether that be on a computer or mobile.
+            <br></br> <br></br>
+            <link>
+                <text> Click here to learn more about the job functions of  Web developers.</text>
+                <url>https://www.computerscience.org/careers/web-developer/</url>
+            </link>
+            <button>
+                <text>Click here to explore other career choices.</text>
+                <postback>top 5</postback>
+            </button>
+             <button>
+                <text>Click here for help narrowing it down further.</text>
+                <postback>narrow choice</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>webdev pointer</pattern>
+        <template>Based on that little "questionnaire," I think that you should really look into the role of a web developer!
+        <br></br><br></br>The job of a web developer is to ensure that all content that they are in charge of is accessible to everyone on the internet. They do this by making sure the layout is easily understood, graphics and pictures are integrated properly, and that every aspect of the front-facing site is user-friendly. They also make sure that the sites they're in charge of are accessible across different browsers whether that be on a computer or mobile.
+            <br></br> <br></br>
+            <link>
+                <text> Click here to learn more about web developers.</text>
+                <url>https://www.computerscience.org/careers/web-developer/</url>
+            </link>
+            <button>
+                <text>Click here to explore other career choices.</text>
+                <postback>top 5</postback>
+            </button>
+             <button>
+                <text>Click here for help narrowing it down further.</text>
+                <postback>narrow choice</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

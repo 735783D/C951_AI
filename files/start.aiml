@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <category>
+        <pattern>begin</pattern>
+        <template>Hello again! I'm a very smart bot and I'm here to help you with your career interests for Computer Science. Please select one of the choices below to begin your
+         journey of looking for a career in a Computer Science field!
+            <button>
+                <text>Top 5 job roles for Computer Science graduates in 2023</text>
+                <postback>top 5</postback>
+            </button>
+            <button>
+                <text>Need some help narrowing it down?</text>
+                <postback>narrow choice</postback>
+            </button>    
+        </template>
+    </category>
+   
+   <category>
+        <pattern>top 5</pattern>
+        <template>Here are the top 5 Computer Science careers that are in high demand in 2023!
+            <button>
+                <text>Software Developer</text>
+                <postback>swdev</postback>
+            </button>
+            <button>
+                <text>Cybersecurity Analyst</text>
+                <postback>cysec analyst</postback>
+            </button>
+            <button>
+                <text>Information Researcher</text>
+                <postback>researcher</postback>
+            </button>
+            <button>
+                <text>Database Administrator</text>
+                <postback>dbadmin</postback>
+            </button>
+            <button>
+                <text>Web Developer</text>
+                <postback>webdev</postback>
+            </button>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>narrow choice</pattern>
+        <template>I will now ask you a few questions that will help me get a better understanding of your ideal job role. Don't think of it like an interrogation...more like a questionnaire.
+        <br></br><br></br>
+        Have a love for technology but have issues with programming?
+            <button>
+                <text>Yes</text>
+                <postback>webdev path</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>swdev path</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>webdev path</pattern>
+        <template> Have experience with web applications frameworks or API's?  
+            <button>
+                <text>Yes</text>
+                <postback>webdev path 2</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>cysec path</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>swdev path</pattern>
+        <template> Have a inclination towards development environments?
+            <button>
+                <text>Yes</text>
+                <postback>swdev path 2</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>db path</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>webdev path 2</pattern>
+        <template> Prefer web applications over anything else?
+            <button>
+                <text>Yes</text>
+                <postback>webdev pointer</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>researcher path</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>researcher path</pattern>
+        <template>Do you love studying and understanding how technology works?
+            <button>
+                <text>Yes</text>
+                <postback>researcher pointer</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>no suggestions</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>cysec path</pattern>
+        <template> Prefer networking and applying security controls?
+            <button>
+                <text>Yes</text>
+                <postback>cysec pointer</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>no suggestions</postback>
+            </button>
+        </template>
+    </category>
+        <category>
+        <pattern>swdev path 2</pattern>
+        <template> Have a knack for development of software systems?
+            <button>
+                <text>Yes</text>
+                <postback>swdev pointer</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>cysec path</postback>
+            </button>
+        </template>
+    </category>
+            <category>
+        <pattern>db path</pattern>
+        <template>Do you like knowing how data is utilized, stored, and secured?
+            <button>
+                <text>Yes</text>
+                <postback>dbadmin pointer</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>swdev path 2</postback>
+            </button>
+        </template>
+    </category>
+
+</aiml>

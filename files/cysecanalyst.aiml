@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>cysec analyst</pattern>
+        <template>Cybersecurity analysts have a very interesting job safeguarding organizational infrastructure! They do this through the use of critical thinking skills along with a deep understanding of how the mind of a cybercriminal behaves. With these skills they can help prevent potentianl threats from becoming a reality for unsuspecting victims.
+            <br></br> <br></br>
+            <link>
+                <text> Click here to learn more about what a Cybersecurity analyst does.</text>
+                <url>https://www.wgu.edu/blog/what-does-cybersecurity-analyst-do1808.html</url>
+            </link>
+            <button>
+                <text>Click here to explore other career choices.</text>
+                <postback>top 5</postback>
+            </button>
+             <button>
+                <text>Click here for help narrowing it down further.</text>
+                <postback>narrow choice</postback>
+            </button>
+        </template>
+    </category>
+	<category>
+        <pattern>cysec pointer</pattern>
+        <template>I think you should consider looking into becoming a cybersecurity analyst!
+        <br></br><br></br>
+            Cybersecurity analysts have a very interesting job safeguarding organizational infrastructure! They do this through the use of critical thinking skills along with a deep understanding of how the mind of a cybercriminal behaves. With these skills they can help prevent potentianl threats from becoming a reality for unsuspecting victims.
+            <br></br> <br></br>
+            <link>
+                <text> Click here to learn more about Cybersecurity analysts.</text>
+                <url>https://www.wgu.edu/blog/what-does-cybersecurity-analyst-do1808.html</url>
+            </link>
+            <button>
+                <text>Click here to explore other career choices.</text>
+                <postback>top 5</postback>
+            </button>
+             <button>
+                <text>Click here for help narrowing it down further.</text>
+                <postback>narrow choice</postback>
+            </button>
+        </template>
+    </category>
+</aiml>
